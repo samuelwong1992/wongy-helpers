@@ -1,0 +1,16 @@
+PODS:
+  - wongyhelpers (0.1.0)
+
+DEPENDENCIES:
+  - wongyhelpers (from `../`)
+
+EXTERNAL SOURCES:
+  wongyhelpers:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  wongyhelpers: baf78f4e219e8b79ea13bf3c5915068341fa9c5c
+
+PODFILE CHECKSUM: fba5d115f2e36569c6ba887b68a062a5614881a8
+
+COCOAPODS: 1.10.1

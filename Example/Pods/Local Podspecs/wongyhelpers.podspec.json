@@ -1,0 +1,22 @@
+{
+  "name": "wongyhelpers",
+  "version": "0.1.0",
+  "summary": "A short description of wongyhelpers.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/samuelwong1992/wongyhelpers",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "samuelwong1992": "samuelwong1992@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/samuelwong1992/wongyhelpers.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "wongyhelpers/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_wongyhelpers_Example {
+  umbrella header "Pods-wongyhelpers_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
