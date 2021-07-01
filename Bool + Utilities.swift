@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+extension Bool {
+    var toString: String {
+        return self ? "Yes" : "No"
+    }
+}
+

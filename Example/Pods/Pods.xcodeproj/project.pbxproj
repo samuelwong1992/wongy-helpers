@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		135E8488ACDA18CC906627926AF0CC49 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B74D56659F9A2B574C91F985E4B39 /* ReplaceMe.swift */; };
+		135E8488ACDA18CC906627926AF0CC49 /* UIAlert + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B74D56659F9A2B574C91F985E4B39 /* UIAlert + Utilities.swift */; };
 		21D25F191B1444AF5CC1F7F3F2DC7530 /* Pods-wongyhelpers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C151F133639BD4FDD016083B7234B45A /* Pods-wongyhelpers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2791B9A16DBAF7EC496329375E0F9380 /* wongyhelpers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF18C10DAC2D0B33C496F839BDFB2E9 /* wongyhelpers-dummy.m */; };
+		46590E292689834B00561049 /* Date + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E282689834A00561049 /* Date + Utilities.swift */; };
+		46590E2B2689841800561049 /* UIViewController + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E2A2689841800561049 /* UIViewController + Utilities.swift */; };
+		46590E2D2689844B00561049 /* UIView + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E2C2689844B00561049 /* UIView + Utilities.swift */; };
+		46590E2F268984A400561049 /* CGRect + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E2E268984A400561049 /* CGRect + Utilities.swift */; };
+		46590E3126898B1900561049 /* UIColor + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3026898B1900561049 /* UIColor + Utilities.swift */; };
+		46590E3326898D0A00561049 /* UITextField + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3226898D0A00561049 /* UITextField + Utilities.swift */; };
+		46590E3526898D3900561049 /* String + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3426898D3900561049 /* String + Utilities.swift */; };
+		46590E3726898D5A00561049 /* Bool + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3626898D5A00561049 /* Bool + Utilities.swift */; };
+		46590E3926898D7C00561049 /* Int + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3826898D7C00561049 /* Int + Utilities.swift */; };
+		46590E3B26898DB800561049 /* Double + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3A26898DB800561049 /* Double + Utilities.swift */; };
+		46590E3D26898DD800561049 /* Error + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3C26898DD800561049 /* Error + Utilities.swift */; };
+		46590E3F26898E1300561049 /* UIImage + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3E26898E1300561049 /* UIImage + Utilities.swift */; };
+		46590E4126898E3500561049 /* UIApplication + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E4026898E3500561049 /* UIApplication + Utilities.swift */; };
 		58582751AC5940097D582F01F4FCA9D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6E316647B59DF610809C0F17F4403C6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6FB87E3DD242B262BED32E1316556079 /* Pods-wongyhelpers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E2FF5ED896F2EA8E7FFF24D9D3B97E /* Pods-wongyhelpers_Example-dummy.m */; };
@@ -38,17 +51,30 @@
 
 /* Begin PBXFileReference section */
 		211864DAB3E56DDFE2CB0D4FC6C0DA02 /* Pods-wongyhelpers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wongyhelpers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2CBD83A60504B8558846F412549C69B0 /* Pods_wongyhelpers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wongyhelpers_Tests.framework; path = "Pods-wongyhelpers_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBD83A60504B8558846F412549C69B0 /* Pods_wongyhelpers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wongyhelpers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA0593B4E49715E62317441BD44C673 /* Pods-wongyhelpers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wongyhelpers_Tests.modulemap"; sourceTree = "<group>"; };
 		309405CCB24D8E38B6C82F505C221341 /* Pods-wongyhelpers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wongyhelpers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E4418FA4196D401CD7C806AF3611A1D /* Pods-wongyhelpers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wongyhelpers_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F0BE7F5F95B2A888803D18E29F2886C /* Pods-wongyhelpers_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wongyhelpers_Tests-Info.plist"; sourceTree = "<group>"; };
+		46590E282689834A00561049 /* Date + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Utilities.swift"; sourceTree = "<group>"; };
+		46590E2A2689841800561049 /* UIViewController + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Utilities.swift"; sourceTree = "<group>"; };
+		46590E2C2689844B00561049 /* UIView + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Utilities.swift"; sourceTree = "<group>"; };
+		46590E2E268984A400561049 /* CGRect + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect + Utilities.swift"; sourceTree = "<group>"; };
+		46590E3026898B1900561049 /* UIColor + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Utilities.swift"; sourceTree = "<group>"; };
+		46590E3226898D0A00561049 /* UITextField + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Utilities.swift"; sourceTree = "<group>"; };
+		46590E3426898D3900561049 /* String + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Utilities.swift"; sourceTree = "<group>"; };
+		46590E3626898D5A00561049 /* Bool + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool + Utilities.swift"; sourceTree = "<group>"; };
+		46590E3826898D7C00561049 /* Int + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int + Utilities.swift"; sourceTree = "<group>"; };
+		46590E3A26898DB800561049 /* Double + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Utilities.swift"; sourceTree = "<group>"; };
+		46590E3C26898DD800561049 /* Error + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error + Utilities.swift"; sourceTree = "<group>"; };
+		46590E3E26898E1300561049 /* UIImage + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Utilities.swift"; sourceTree = "<group>"; };
+		46590E4026898E3500561049 /* UIApplication + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication + Utilities.swift"; sourceTree = "<group>"; };
 		4EA1FD2CD5720842E71F58C42E5D8368 /* wongyhelpers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = wongyhelpers.modulemap; sourceTree = "<group>"; };
 		525D99A3ECD2ECD2ADB9FBF60AA81564 /* wongyhelpers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "wongyhelpers-Info.plist"; sourceTree = "<group>"; };
-		572E28B4A7BB3C81607DD5F183BD1763 /* wongyhelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wongyhelpers.framework; path = wongyhelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58CB2595C4AA40971843236632C36FFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5AD2377F249398A95C41475DC0D5F940 /* Pods_wongyhelpers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wongyhelpers_Example.framework; path = "Pods-wongyhelpers_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3A7A59FA7EB5E2A88CCBEE0EE6FDF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		572E28B4A7BB3C81607DD5F183BD1763 /* wongyhelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wongyhelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CB2595C4AA40971843236632C36FFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AD2377F249398A95C41475DC0D5F940 /* Pods_wongyhelpers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wongyhelpers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3A7A59FA7EB5E2A88CCBEE0EE6FDF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		60E2FF5ED896F2EA8E7FFF24D9D3B97E /* Pods-wongyhelpers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wongyhelpers_Example-dummy.m"; sourceTree = "<group>"; };
 		630F2205F4A8CD24704F9C7783689E2E /* Pods-wongyhelpers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wongyhelpers_Example.modulemap"; sourceTree = "<group>"; };
 		6F6DEAC6622BAC94AB8E0537C9F226C4 /* wongyhelpers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wongyhelpers-prefix.pch"; sourceTree = "<group>"; };
@@ -59,13 +85,13 @@
 		8990C08C8D68C24229DA1EDDC374B4BA /* Pods-wongyhelpers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wongyhelpers_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8AF18C10DAC2D0B33C496F839BDFB2E9 /* wongyhelpers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wongyhelpers-dummy.m"; sourceTree = "<group>"; };
 		9B249AA3362F6EF8CC6EB4E403A9E87D /* Pods-wongyhelpers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wongyhelpers_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5E4F5AC1CE76260D5A6735161BE533B /* wongyhelpers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wongyhelpers.release.xcconfig; sourceTree = "<group>"; };
-		BCC776C849CC51734706790EF16FF4D0 /* wongyhelpers.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = wongyhelpers.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCC776C849CC51734706790EF16FF4D0 /* wongyhelpers.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = wongyhelpers.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C151F133639BD4FDD016083B7234B45A /* Pods-wongyhelpers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wongyhelpers_Example-umbrella.h"; sourceTree = "<group>"; };
 		D5E3D5F557422EF27A150000757CAD30 /* Pods-wongyhelpers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wongyhelpers_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DAF901F58EEDC4C02B52248BC673A6D7 /* Pods-wongyhelpers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wongyhelpers_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E50B74D56659F9A2B574C91F985E4B39 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = wongyhelpers/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E50B74D56659F9A2B574C91F985E4B39 /* UIAlert + Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlert + Utilities.swift"; path = "wongyhelpers/Classes/UIAlert + Utilities.swift"; sourceTree = "<group>"; };
 		E5E1BC113FA38B96B78229E93845CD57 /* wongyhelpers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wongyhelpers.debug.xcconfig; sourceTree = "<group>"; };
 		F288A49589012927B301FE7EC512B851 /* Pods-wongyhelpers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wongyhelpers_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA7A14DBF23508F4F90F2318E2671565 /* wongyhelpers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wongyhelpers-umbrella.h"; sourceTree = "<group>"; };
@@ -113,7 +139,20 @@
 		4FAE8622DD0CEEBF2D9EC8C41A95FEFE /* wongyhelpers */ = {
 			isa = PBXGroup;
 			children = (
-				E50B74D56659F9A2B574C91F985E4B39 /* ReplaceMe.swift */,
+				E50B74D56659F9A2B574C91F985E4B39 /* UIAlert + Utilities.swift */,
+				46590E282689834A00561049 /* Date + Utilities.swift */,
+				46590E2A2689841800561049 /* UIViewController + Utilities.swift */,
+				46590E2C2689844B00561049 /* UIView + Utilities.swift */,
+				46590E2E268984A400561049 /* CGRect + Utilities.swift */,
+				46590E3026898B1900561049 /* UIColor + Utilities.swift */,
+				46590E3226898D0A00561049 /* UITextField + Utilities.swift */,
+				46590E3426898D3900561049 /* String + Utilities.swift */,
+				46590E3626898D5A00561049 /* Bool + Utilities.swift */,
+				46590E3826898D7C00561049 /* Int + Utilities.swift */,
+				46590E3A26898DB800561049 /* Double + Utilities.swift */,
+				46590E3C26898DD800561049 /* Error + Utilities.swift */,
+				46590E3E26898E1300561049 /* UIImage + Utilities.swift */,
+				46590E4026898E3500561049 /* UIApplication + Utilities.swift */,
 				EA2C1879D84DDFB928A7CE519C5EEBE6 /* Pod */,
 				97ADA376749D772147688324806F1AE9 /* Support Files */,
 			);
@@ -383,7 +422,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135E8488ACDA18CC906627926AF0CC49 /* ReplaceMe.swift in Sources */,
+				46590E3726898D5A00561049 /* Bool + Utilities.swift in Sources */,
+				46590E3B26898DB800561049 /* Double + Utilities.swift in Sources */,
+				46590E3F26898E1300561049 /* UIImage + Utilities.swift in Sources */,
+				135E8488ACDA18CC906627926AF0CC49 /* UIAlert + Utilities.swift in Sources */,
+				46590E2D2689844B00561049 /* UIView + Utilities.swift in Sources */,
+				46590E4126898E3500561049 /* UIApplication + Utilities.swift in Sources */,
+				46590E3526898D3900561049 /* String + Utilities.swift in Sources */,
+				46590E3126898B1900561049 /* UIColor + Utilities.swift in Sources */,
+				46590E2B2689841800561049 /* UIViewController + Utilities.swift in Sources */,
+				46590E292689834B00561049 /* Date + Utilities.swift in Sources */,
+				46590E2F268984A400561049 /* CGRect + Utilities.swift in Sources */,
+				46590E3326898D0A00561049 /* UITextField + Utilities.swift in Sources */,
+				46590E3926898D7C00561049 /* Int + Utilities.swift in Sources */,
+				46590E3D26898DD800561049 /* Error + Utilities.swift in Sources */,
 				2791B9A16DBAF7EC496329375E0F9380 /* wongyhelpers-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +481,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -624,7 +676,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -686,8 +738,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
