@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Int {
+public extension Int {
     var toString: String {
         return "\(self)"
     }

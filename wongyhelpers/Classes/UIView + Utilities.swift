@@ -1,7 +1,7 @@
 import UIKit
 
 
-extension UIView {
+public extension UIView {
     func loadViewFromNib(_ nibName:String, forClass aClass: AnyClass! = nil, atIndex index:Int = 0) {
         let bundle:Bundle! = aClass != nil ? Bundle(for: aClass) : nil
         let nib = UINib(nibName: nibName, bundle: bundle)
@@ -244,7 +244,7 @@ extension UIView {
     }
 }
 
-class UtilityView: UIView {
+public class UtilityView: UIView {
     private var parentViewController: UIViewController!
     
     required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }

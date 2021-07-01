@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UITextField {
+public extension UITextField {
     func textLengthAfterChange(changedRange range: NSRange, replacementString string: String) -> Int {
         let text = self.text != nil ? self.text! : ""
         return text.count + string.count - range.length

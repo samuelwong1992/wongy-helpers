@@ -9,7 +9,7 @@
 
 import UIKit
 
-extension UIAlertController {
+public extension UIAlertController {
     static func showAlertWithError(viewController:UIViewController, error: Error) {
         let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))

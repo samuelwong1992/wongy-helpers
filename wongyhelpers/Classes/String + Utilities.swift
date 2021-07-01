@@ -5,7 +5,7 @@
 //  Created by Samuel Wong on 28/6/21.
 //
 
-extension String {
+public extension String {
     static func isNilOrEmpty(_ string: String?) -> Bool {
         if string == nil { return true }
         if string!.count <= 0 { return true }

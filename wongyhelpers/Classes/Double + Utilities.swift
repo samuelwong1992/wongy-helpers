@@ -5,7 +5,7 @@
 //  Created by Samuel Wong on 28/6/21.
 //
 
-extension Double {
+public extension Double {
     static func selfOrNA(double: Double?) -> String {
         if double == nil { return "N/A" }
         if double == 0 { return "N/A" }

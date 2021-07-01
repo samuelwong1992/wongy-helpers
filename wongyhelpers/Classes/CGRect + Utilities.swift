@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension CGRect {
+public extension CGRect {
     var withZeroOrigin: CGRect {
         return CGRect(origin: CGPoint.zero, size: self.size)
     }

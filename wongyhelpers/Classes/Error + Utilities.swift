@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension NSError {
+public extension NSError {
     static func standardErrorWithString(errorString: String) -> NSError {
         return NSError(domain: Bundle.main.bundleIdentifier!, code: 0, userInfo: [NSLocalizedDescriptionKey : errorString])
     }

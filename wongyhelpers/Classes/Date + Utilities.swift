@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Date {
+public extension Date {
     enum DayOfWeek: Int {
         case Sunday = 1
         case Monday
