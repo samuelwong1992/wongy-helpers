@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wongyhelpers'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Some utilities to make the tedious stuff easier.'
   s.description      = <<-DESC
                         This pod adds simple, english functions out of the unintuitive parts of development
