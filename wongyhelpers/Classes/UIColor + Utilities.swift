@@ -8,7 +8,7 @@
 import UIKit
 
 public extension UIColor {
-    class func colourWithHexStringAndAlpha(_ hex: String, alpha:CGFloat) -> UIColor {
+    public class func colourWithHexStringAndAlpha(_ hex: String, alpha:CGFloat) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
         if (cString.hasPrefix("#")) {
@@ -30,7 +30,7 @@ public extension UIColor {
         )
     }
     
-    class func colourWithHexString(_ hex: String) -> UIColor {
+    public class func colourWithHexString(_ hex: String) -> UIColor {
         return UIColor.colourWithHexStringAndAlpha(hex, alpha: 1)
     }
 }
