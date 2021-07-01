@@ -10,19 +10,19 @@
 		135E8488ACDA18CC906627926AF0CC49 /* UIAlert + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B74D56659F9A2B574C91F985E4B39 /* UIAlert + Utilities.swift */; };
 		21D25F191B1444AF5CC1F7F3F2DC7530 /* Pods-wongyhelpers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C151F133639BD4FDD016083B7234B45A /* Pods-wongyhelpers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2791B9A16DBAF7EC496329375E0F9380 /* wongyhelpers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF18C10DAC2D0B33C496F839BDFB2E9 /* wongyhelpers-dummy.m */; };
-		46590E292689834B00561049 /* Date + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E282689834A00561049 /* Date + Utilities.swift */; };
-		46590E2B2689841800561049 /* UIViewController + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E2A2689841800561049 /* UIViewController + Utilities.swift */; };
-		46590E2D2689844B00561049 /* UIView + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E2C2689844B00561049 /* UIView + Utilities.swift */; };
-		46590E2F268984A400561049 /* CGRect + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E2E268984A400561049 /* CGRect + Utilities.swift */; };
-		46590E3126898B1900561049 /* UIColor + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3026898B1900561049 /* UIColor + Utilities.swift */; };
-		46590E3326898D0A00561049 /* UITextField + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3226898D0A00561049 /* UITextField + Utilities.swift */; };
-		46590E3526898D3900561049 /* String + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3426898D3900561049 /* String + Utilities.swift */; };
-		46590E3726898D5A00561049 /* Bool + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3626898D5A00561049 /* Bool + Utilities.swift */; };
-		46590E3926898D7C00561049 /* Int + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3826898D7C00561049 /* Int + Utilities.swift */; };
-		46590E3B26898DB800561049 /* Double + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3A26898DB800561049 /* Double + Utilities.swift */; };
-		46590E3D26898DD800561049 /* Error + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3C26898DD800561049 /* Error + Utilities.swift */; };
-		46590E3F26898E1300561049 /* UIImage + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E3E26898E1300561049 /* UIImage + Utilities.swift */; };
-		46590E4126898E3500561049 /* UIApplication + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46590E4026898E3500561049 /* UIApplication + Utilities.swift */; };
+		46300948268D58F7004D9C95 /* Double + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630093B268D58F7004D9C95 /* Double + Utilities.swift */; };
+		46300949268D58F7004D9C95 /* UIColor + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630093C268D58F7004D9C95 /* UIColor + Utilities.swift */; };
+		4630094A268D58F7004D9C95 /* CGRect + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630093D268D58F7004D9C95 /* CGRect + Utilities.swift */; };
+		4630094B268D58F7004D9C95 /* Int + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630093E268D58F7004D9C95 /* Int + Utilities.swift */; };
+		4630094C268D58F7004D9C95 /* Date + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630093F268D58F7004D9C95 /* Date + Utilities.swift */; };
+		4630094D268D58F7004D9C95 /* UIView + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46300940268D58F7004D9C95 /* UIView + Utilities.swift */; };
+		4630094E268D58F7004D9C95 /* UIApplication + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46300941268D58F7004D9C95 /* UIApplication + Utilities.swift */; };
+		4630094F268D58F7004D9C95 /* Error + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46300942268D58F7004D9C95 /* Error + Utilities.swift */; };
+		46300950268D58F7004D9C95 /* Bool + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46300943268D58F7004D9C95 /* Bool + Utilities.swift */; };
+		46300951268D58F7004D9C95 /* UITextField + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46300944268D58F7004D9C95 /* UITextField + Utilities.swift */; };
+		46300952268D58F7004D9C95 /* String + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46300945268D58F7004D9C95 /* String + Utilities.swift */; };
+		46300953268D58F7004D9C95 /* UIImage + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46300946268D58F7004D9C95 /* UIImage + Utilities.swift */; };
+		46300954268D58F7004D9C95 /* UIViewController + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46300947268D58F7004D9C95 /* UIViewController + Utilities.swift */; };
 		58582751AC5940097D582F01F4FCA9D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6E316647B59DF610809C0F17F4403C6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6FB87E3DD242B262BED32E1316556079 /* Pods-wongyhelpers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E2FF5ED896F2EA8E7FFF24D9D3B97E /* Pods-wongyhelpers_Example-dummy.m */; };
@@ -56,19 +56,19 @@
 		309405CCB24D8E38B6C82F505C221341 /* Pods-wongyhelpers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wongyhelpers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E4418FA4196D401CD7C806AF3611A1D /* Pods-wongyhelpers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wongyhelpers_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F0BE7F5F95B2A888803D18E29F2886C /* Pods-wongyhelpers_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wongyhelpers_Tests-Info.plist"; sourceTree = "<group>"; };
-		46590E282689834A00561049 /* Date + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Utilities.swift"; sourceTree = "<group>"; };
-		46590E2A2689841800561049 /* UIViewController + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Utilities.swift"; sourceTree = "<group>"; };
-		46590E2C2689844B00561049 /* UIView + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Utilities.swift"; sourceTree = "<group>"; };
-		46590E2E268984A400561049 /* CGRect + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect + Utilities.swift"; sourceTree = "<group>"; };
-		46590E3026898B1900561049 /* UIColor + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Utilities.swift"; sourceTree = "<group>"; };
-		46590E3226898D0A00561049 /* UITextField + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Utilities.swift"; sourceTree = "<group>"; };
-		46590E3426898D3900561049 /* String + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Utilities.swift"; sourceTree = "<group>"; };
-		46590E3626898D5A00561049 /* Bool + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool + Utilities.swift"; sourceTree = "<group>"; };
-		46590E3826898D7C00561049 /* Int + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int + Utilities.swift"; sourceTree = "<group>"; };
-		46590E3A26898DB800561049 /* Double + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Utilities.swift"; sourceTree = "<group>"; };
-		46590E3C26898DD800561049 /* Error + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error + Utilities.swift"; sourceTree = "<group>"; };
-		46590E3E26898E1300561049 /* UIImage + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Utilities.swift"; sourceTree = "<group>"; };
-		46590E4026898E3500561049 /* UIApplication + Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication + Utilities.swift"; sourceTree = "<group>"; };
+		4630093B268D58F7004D9C95 /* Double + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Double + Utilities.swift"; path = "wongyhelpers/Classes/Double + Utilities.swift"; sourceTree = "<group>"; };
+		4630093C268D58F7004D9C95 /* UIColor + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor + Utilities.swift"; path = "wongyhelpers/Classes/UIColor + Utilities.swift"; sourceTree = "<group>"; };
+		4630093D268D58F7004D9C95 /* CGRect + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGRect + Utilities.swift"; path = "wongyhelpers/Classes/CGRect + Utilities.swift"; sourceTree = "<group>"; };
+		4630093E268D58F7004D9C95 /* Int + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int + Utilities.swift"; path = "wongyhelpers/Classes/Int + Utilities.swift"; sourceTree = "<group>"; };
+		4630093F268D58F7004D9C95 /* Date + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date + Utilities.swift"; path = "wongyhelpers/Classes/Date + Utilities.swift"; sourceTree = "<group>"; };
+		46300940268D58F7004D9C95 /* UIView + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView + Utilities.swift"; path = "wongyhelpers/Classes/UIView + Utilities.swift"; sourceTree = "<group>"; };
+		46300941268D58F7004D9C95 /* UIApplication + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication + Utilities.swift"; path = "wongyhelpers/Classes/UIApplication + Utilities.swift"; sourceTree = "<group>"; };
+		46300942268D58F7004D9C95 /* Error + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Error + Utilities.swift"; path = "wongyhelpers/Classes/Error + Utilities.swift"; sourceTree = "<group>"; };
+		46300943268D58F7004D9C95 /* Bool + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bool + Utilities.swift"; path = "wongyhelpers/Classes/Bool + Utilities.swift"; sourceTree = "<group>"; };
+		46300944268D58F7004D9C95 /* UITextField + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField + Utilities.swift"; path = "wongyhelpers/Classes/UITextField + Utilities.swift"; sourceTree = "<group>"; };
+		46300945268D58F7004D9C95 /* String + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String + Utilities.swift"; path = "wongyhelpers/Classes/String + Utilities.swift"; sourceTree = "<group>"; };
+		46300946268D58F7004D9C95 /* UIImage + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage + Utilities.swift"; path = "wongyhelpers/Classes/UIImage + Utilities.swift"; sourceTree = "<group>"; };
+		46300947268D58F7004D9C95 /* UIViewController + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController + Utilities.swift"; path = "wongyhelpers/Classes/UIViewController + Utilities.swift"; sourceTree = "<group>"; };
 		4EA1FD2CD5720842E71F58C42E5D8368 /* wongyhelpers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = wongyhelpers.modulemap; sourceTree = "<group>"; };
 		525D99A3ECD2ECD2ADB9FBF60AA81564 /* wongyhelpers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "wongyhelpers-Info.plist"; sourceTree = "<group>"; };
 		572E28B4A7BB3C81607DD5F183BD1763 /* wongyhelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wongyhelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,20 +139,20 @@
 		4FAE8622DD0CEEBF2D9EC8C41A95FEFE /* wongyhelpers */ = {
 			isa = PBXGroup;
 			children = (
+				46300943268D58F7004D9C95 /* Bool + Utilities.swift */,
+				4630093D268D58F7004D9C95 /* CGRect + Utilities.swift */,
+				4630093F268D58F7004D9C95 /* Date + Utilities.swift */,
+				4630093B268D58F7004D9C95 /* Double + Utilities.swift */,
+				46300942268D58F7004D9C95 /* Error + Utilities.swift */,
+				4630093E268D58F7004D9C95 /* Int + Utilities.swift */,
+				46300945268D58F7004D9C95 /* String + Utilities.swift */,
+				46300941268D58F7004D9C95 /* UIApplication + Utilities.swift */,
+				4630093C268D58F7004D9C95 /* UIColor + Utilities.swift */,
+				46300946268D58F7004D9C95 /* UIImage + Utilities.swift */,
+				46300944268D58F7004D9C95 /* UITextField + Utilities.swift */,
+				46300940268D58F7004D9C95 /* UIView + Utilities.swift */,
+				46300947268D58F7004D9C95 /* UIViewController + Utilities.swift */,
 				E50B74D56659F9A2B574C91F985E4B39 /* UIAlert + Utilities.swift */,
-				46590E282689834A00561049 /* Date + Utilities.swift */,
-				46590E2A2689841800561049 /* UIViewController + Utilities.swift */,
-				46590E2C2689844B00561049 /* UIView + Utilities.swift */,
-				46590E2E268984A400561049 /* CGRect + Utilities.swift */,
-				46590E3026898B1900561049 /* UIColor + Utilities.swift */,
-				46590E3226898D0A00561049 /* UITextField + Utilities.swift */,
-				46590E3426898D3900561049 /* String + Utilities.swift */,
-				46590E3626898D5A00561049 /* Bool + Utilities.swift */,
-				46590E3826898D7C00561049 /* Int + Utilities.swift */,
-				46590E3A26898DB800561049 /* Double + Utilities.swift */,
-				46590E3C26898DD800561049 /* Error + Utilities.swift */,
-				46590E3E26898E1300561049 /* UIImage + Utilities.swift */,
-				46590E4026898E3500561049 /* UIApplication + Utilities.swift */,
 				EA2C1879D84DDFB928A7CE519C5EEBE6 /* Pod */,
 				97ADA376749D772147688324806F1AE9 /* Support Files */,
 			);
@@ -422,20 +422,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46590E3726898D5A00561049 /* Bool + Utilities.swift in Sources */,
-				46590E3B26898DB800561049 /* Double + Utilities.swift in Sources */,
-				46590E3F26898E1300561049 /* UIImage + Utilities.swift in Sources */,
+				46300952268D58F7004D9C95 /* String + Utilities.swift in Sources */,
+				4630094B268D58F7004D9C95 /* Int + Utilities.swift in Sources */,
+				46300953268D58F7004D9C95 /* UIImage + Utilities.swift in Sources */,
+				46300950268D58F7004D9C95 /* Bool + Utilities.swift in Sources */,
+				46300949268D58F7004D9C95 /* UIColor + Utilities.swift in Sources */,
+				4630094E268D58F7004D9C95 /* UIApplication + Utilities.swift in Sources */,
 				135E8488ACDA18CC906627926AF0CC49 /* UIAlert + Utilities.swift in Sources */,
-				46590E2D2689844B00561049 /* UIView + Utilities.swift in Sources */,
-				46590E4126898E3500561049 /* UIApplication + Utilities.swift in Sources */,
-				46590E3526898D3900561049 /* String + Utilities.swift in Sources */,
-				46590E3126898B1900561049 /* UIColor + Utilities.swift in Sources */,
-				46590E2B2689841800561049 /* UIViewController + Utilities.swift in Sources */,
-				46590E292689834B00561049 /* Date + Utilities.swift in Sources */,
-				46590E2F268984A400561049 /* CGRect + Utilities.swift in Sources */,
-				46590E3326898D0A00561049 /* UITextField + Utilities.swift in Sources */,
-				46590E3926898D7C00561049 /* Int + Utilities.swift in Sources */,
-				46590E3D26898DD800561049 /* Error + Utilities.swift in Sources */,
+				4630094D268D58F7004D9C95 /* UIView + Utilities.swift in Sources */,
+				46300954268D58F7004D9C95 /* UIViewController + Utilities.swift in Sources */,
+				46300951268D58F7004D9C95 /* UITextField + Utilities.swift in Sources */,
+				4630094F268D58F7004D9C95 /* Error + Utilities.swift in Sources */,
+				4630094A268D58F7004D9C95 /* CGRect + Utilities.swift in Sources */,
+				46300948268D58F7004D9C95 /* Double + Utilities.swift in Sources */,
+				4630094C268D58F7004D9C95 /* Date + Utilities.swift in Sources */,
 				2791B9A16DBAF7EC496329375E0F9380 /* wongyhelpers-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
